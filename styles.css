@@ -104,7 +104,7 @@ input {
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
-  box-shadow: 2px 3px 3px var(--shadow)
+  box-shadow: 2px 3px 3px var(--shadow);
 }
 
 p.login {
@@ -120,6 +120,24 @@ footer {
   text-align: center;
   padding-bottom: 1rem;
 }
+/* new material trying out */
+#passwordtest {
+  color: red;
+}
+
+input:valid {
+  transition-duration: 1.5s;
+  transition-property: border;
+  border: solid 3px #26bcf3;
+  border-radius: 4px;
+}
+
+/* input:invalid {
+  transition-duration: 1.5s;
+  transition-property: border;
+  border: solid 3px #981717;
+  border-radius: 4px;
+} */
 
 @media only screen and (min-width: 1000px) {
   body {
@@ -138,7 +156,6 @@ footer {
   .hero {
     margin: auto;
     max-width: 40vw;
-    
   }
 
   input {
@@ -158,4 +175,3 @@ footer {
     top: 98vh;
   }
 }
-
