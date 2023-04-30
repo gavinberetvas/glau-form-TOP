@@ -104,6 +104,7 @@ input {
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
+  box-shadow: 2px 3px 3px var(--shadow)
 }
 
 p.login {
