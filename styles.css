@@ -32,6 +32,8 @@ font-family: 'Comme', sans-serif; */
   font-size: 10ch;
   text-align: center;
   position: absolute;
+  z-index: 3;
+  padding: 0;
   top: 10rem;
 }
 
@@ -134,26 +136,25 @@ footer {
 
   .hero {
     margin: auto;
-   max-width: 40vw;
+    max-width: 40vw;
+    
   }
 
   input {
     width: 30vw;
-    
   }
 
   .sunrise {
     width: 36vw;
     height: 100vh;
-    /* width: 0;
-        height: 0; */
   }
   .glau {
     width: 36vw;
   }
-  .dumlao{
+  .dumlao {
     padding: 0;
     margin: 0;
     top: 98vh;
   }
 }
+
