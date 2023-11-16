@@ -22,6 +22,7 @@ The rest is pure HTML. The create account button just runs a test form validatio
 
 ### Supporting Tools
 
+* ESLint
 * Git/GitHub
 * Visual Studio Code
 
